@@ -6,5 +6,6 @@ mkdir src && cd src
 git clone https://github.com/Lachiven/obsc_detec_euc
 cd ..
 catkin_make
+source devel/setup.bash
 roslaunch obsc obsc_detec.launch
 ```
